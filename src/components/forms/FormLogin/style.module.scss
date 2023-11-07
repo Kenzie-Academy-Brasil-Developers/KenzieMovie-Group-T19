@@ -1,0 +1,72 @@
+.formLogin {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    height: auto;
+
+    .form {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        margin: .625rem auto;
+        gap: 1rem;
+
+        .inputLogin {
+            width: 210%;
+            background: var(--grey-1);
+            padding: .5rem;
+            color: var(--white);
+            font-family: var(--font-primary);
+            font-weight: var(--weight-1);
+            line-height: 1.5rem;
+
+            &::placeholder {
+                font-size: 1rem;
+                color: var(--white);
+            }
+
+            &:focus {
+                color: var(--white);
+            }
+        }
+
+        .buttonLogin {
+            width: 100%;
+            padding: .625rem;
+            font-family: var(--font-primary);
+            font-size: var(--font-6);
+            font-weight: var(--weight-1);
+            line-height: var(--font-4);
+            background-color: var(--yellow);
+            color: var(--grey-2);
+            border-radius: 15.9375rem;
+        }
+    }
+
+    .divRegisterLogin {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+
+        .paragraph {
+            font-family: var(--font-secondary);
+            font-weight: var(--weight-2);
+            color: var(--white);
+            font-size: var(--font-5);
+            line-height: var(--height-5);
+        }
+    }
+}
+
+@media (max-width: 41.875rem) {
+    .formLogin {
+        .form {
+            .inputLogin {
+                width: 100%;
+            }
+        }
+    }
+}

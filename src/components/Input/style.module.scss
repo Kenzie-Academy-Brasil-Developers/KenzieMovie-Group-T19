@@ -1,0 +1,22 @@
+.inputForm {
+    width: calc(100%/2.1);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: .25rem;
+
+    .error {
+        color: var(--white);
+    }
+}
+
+@media (max-width: 41.875rem) {
+    .inputForm {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        gap: .25rem;
+
+    }
+}

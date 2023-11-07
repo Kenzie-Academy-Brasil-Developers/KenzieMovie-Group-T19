@@ -1,0 +1,295 @@
+.internalPage {
+    background-color: var(--grey-2);
+    color: var(--white);
+    padding: 0 0 1.875rem 0;
+
+    &>div {
+        &>div {
+            width: 73%;
+            margin: 0 auto;
+            text-align: right;
+            margin-bottom: -0.875rem;
+            padding-top: 1rem;
+
+            &>button {
+                width: clamp(4.5rem, 3vw, 7.125rem);
+                height: clamp(2rem, 3vh, 2.6875rem);
+                border-radius: 15.9375rem;
+                font-family: var(--font-primary);
+                font-size: var(--font-6);
+                font-weight: var(--weight-1);
+                line-height: var(--font-4);
+                background-color: var(--yellow);
+                color: var(--grey-2);
+                cursor: pointer;
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+    }
+
+    main {
+        width: 100%;
+
+        &>.principalAvaliation {
+            width: 75%;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            flex-direction: column;
+            gap: 2.1875rem;
+
+            &>.infoHeader {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+                gap: 1.875rem;
+                margin-top: -9rem;
+
+                &>.text {
+                    width: 100%;
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: space-between;
+
+                    &>p {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        gap: .625rem;
+                    }
+                }
+
+                &>div {
+                    width: 100%;
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: space-between;
+                }
+            }
+        }
+
+        &>.listAvaliation {
+            width: 100%;
+
+            &>div {
+                width: 75%;
+                margin: 1.875rem auto;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                &>button {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    gap: .75rem;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 41.875rem) {
+    .internalPage {
+        &>div {
+            &>div {
+                width: 75%;
+                margin: 0 auto;
+                text-align: right;
+                margin-bottom: -1.875rem;
+                padding-top: 1rem;
+
+                &>button {
+                    width: clamp(4.5rem, 3vw, 7.125rem);
+                    height: clamp(2rem, 3vh, 2.6875rem);
+                    border-radius: 15.9375rem;
+                    font-family: var(--font-primary);
+                    font-size: var(--font-6);
+                    font-weight: var(--weight-1);
+                    line-height: var(--font-4);
+                    background-color: var(--yellow);
+                    color: var(--grey-2);
+                    cursor: pointer;
+                    display: inline-flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+            }
+        }
+
+        main {
+            width: 100%;
+
+            &>.principalAvaliation {
+                width: 90%;
+                margin: 0 auto;
+                display: flex;
+                justify-content: space-between;
+                align-items: flex-start;
+                flex-direction: column;
+                gap: 2.1875rem;
+
+                &>.infoHeader {
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    align-items: center;
+                    gap: 1.875rem;
+                    margin-top: -11.25rem;
+
+                    &>.text {
+                        width: 100%;
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        justify-content: space-between;
+
+                        &>p {
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            gap: .625rem;
+                        }
+                    }
+
+                    &>div {
+                        width: 100%;
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        justify-content: space-between;
+                    }
+                }
+            }
+
+            &>.listAvaliation {
+                width: 100%;
+
+                &>div {
+                    width: 75%;
+                    margin: 1.875rem auto;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+
+                    &>button {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        gap: .75rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:35.75rem) {
+    .internalPage {
+        background-color: var(--grey-2);
+        color: var(--white);
+        padding: 0 0 1.875rem 0;
+
+        &>div {
+            &>div {
+                width: 75%;
+                margin: 0 auto;
+                text-align: right;
+                margin-bottom: -1.875rem;
+                padding-top: 1rem;
+
+                &>button {
+                    width: clamp(4.5rem, 3vw, 7.125rem);
+                    height: clamp(2rem, 3vh, 2.6875rem);
+                    border-radius: 15.9375rem;
+                    font-family: var(--font-primary);
+                    font-size: var(--font-6);
+                    font-weight: var(--weight-1);
+                    line-height: var(--font-4);
+                    background-color: var(--yellow);
+                    color: var(--grey-2);
+                    cursor: pointer;
+                    display: inline-flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+            }
+        }
+
+        &>main {
+            width: 100%;
+
+            &>.principalAvaliation {
+                width: 90%;
+                margin: 0 auto;
+                display: flex;
+                justify-content: space-between;
+                align-items: flex-start;
+                flex-direction: column;
+                gap: 2.1875rem;
+
+                &>.infoHeader {
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    align-items: center;
+                    gap: .625rem;
+                    margin-top: -7.5625rem;
+                }
+
+            }
+
+        }
+    }
+}
+
+@media (max-width:29.6875rem) {
+    .internalPage {
+        background-color: var(--grey-2);
+        color: var(--white);
+        padding: 0 0 1.875rem 0;
+
+        &>div {
+            &>div {
+                width: 75%;
+                margin: 0 auto;
+                text-align: right;
+                margin-bottom: -1.25rem;
+                padding-top: 1rem;
+            }
+        }
+
+        main {
+            width: 100%;
+
+            &>.principalAvaliation {
+                width: 90%;
+                margin: 0 auto;
+                display: flex;
+                justify-content: space-between;
+                align-items: flex-start;
+                flex-direction: column;
+                gap: 2.1875rem;
+
+                &>.infoHeader {
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    align-items: center;
+                    gap: .625rem;
+                    margin-top: -6rem;
+                }
+            }
+        }
+    }
+}

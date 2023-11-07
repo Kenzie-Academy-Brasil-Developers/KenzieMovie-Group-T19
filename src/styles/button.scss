@@ -1,0 +1,49 @@
+.buttonSmall {
+    width: 7.125rem;
+    height: 2.6875rem;
+    border-radius: 15.9375rem;
+
+    font-family: var(--font-primary);
+    font-size: var(--font-6);
+    font-weight: var(--weight-1);
+    line-height: var(--font-4);
+    background-color: var(--yellow);
+    color: var(--grey-2);
+    cursor: pointer;
+
+    &.round {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 2.6875rem;
+    }
+}
+
+%btn {
+    font-family: var(--font-primary);
+    font-size: var(--font-6);
+    font-weight: var(--weight-1);
+    line-height: var(--font-4);
+    background-color: var(--yellow);
+    color: var(--grey-2);
+    border-radius: 15.9375rem;
+    cursor: pointer;
+}
+
+.buttonMedium {
+    @extend %btn;
+    width: 10.625rem;
+    height: 3.375rem;
+}
+
+.buttonLarge {
+    @extend %btn;
+    width: 11.5625rem;
+    height: 4.1875rem;
+}
+
+@media (max-width: 32.1875rem){
+    .buttonMedium {
+        padding: 0 0.625rem;
+    }
+}

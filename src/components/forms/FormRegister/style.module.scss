@@ -1,0 +1,103 @@
+.formRegister {
+    width: 100%;
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+
+    .divInputs {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 1rem;
+
+        .register {
+            width: 100%;
+            background: var(--grey-1);
+            padding: .5rem;
+            color: var(--white);
+            font-family: var(--font-primary);
+            font-weight: var(--weight-1);
+            line-height: 1.5rem;
+
+            &::placeholder {
+                font-size: 1rem;
+                color: var(--white);
+            }
+
+            &:focus {
+                color: var(--white);
+            }
+        }
+    }
+
+    .registerButton {
+        width: 12.125rem;
+        height: 2.625rem;
+        border-radius: 15.9375rem;
+        background: var(--yellow);
+        font-family: var(--font-primary);
+        font-size: var(--font-6);
+        font-weight: var(--weight-1);
+        line-height: var(--font-4);
+        align-self: flex-end;
+        color: var(--grey-2);
+        cursor: pointer;
+    }
+}
+
+
+@media (max-width: 41.875rem) {
+    .formRegister {
+        width: 100%;
+        display: flex;
+        gap: 2rem;
+        flex-direction: column;
+
+        .divInputs {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            gap: 1rem;
+
+            .register {
+                width: 100%;
+                background: var(--grey-1);
+                padding: .5rem;
+                color: var(--white);
+                font-family: var(--font-primary);
+                font-weight: var(--weight-1);
+                line-height: 1.5rem;
+
+                &::placeholder {
+                    font-size: 1rem;
+                    color: var(--white);
+                }
+
+                &:focus {
+                    color: var(--white);
+                }
+            }
+        }
+
+        .registerButton {
+            width: 12.125rem;
+            height: 2.625rem;
+            border-radius: 15.9375rem;
+            background: var(--yellow);
+            font-family: var(--font-primary);
+            font-size: var(--font-6);
+            font-weight: var(--weight-1);
+            line-height: var(--font-4);
+            align-self: flex-end;
+            color: var(--grey-2);
+            cursor: pointer;
+        }
+    }
+
+}

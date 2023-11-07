@@ -1,0 +1,27 @@
+.main {
+    width: 80%;
+    height: auto;
+    margin: 1.875rem auto;
+    padding: 1rem;
+    color: var(--white);
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+
+        .error {
+            color: var(--black);
+
+        }
+
+        .button {
+            width: max-content;
+            color: var(--yellow);
+            border: .0625rem solid var(--grey-2);
+            text-decoration: none;
+            margin-top: 1.875rem;
+            padding: 1rem;
+        }
+    }
+}

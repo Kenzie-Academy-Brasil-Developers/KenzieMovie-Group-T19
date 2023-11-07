@@ -1,0 +1,19 @@
+.movielist {
+  width:75%;
+  margin: 0 auto; 
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+@media (max-width: 41.875rem){
+  .movielist {
+    width:90%;
+    margin: 0 auto;  
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+}
